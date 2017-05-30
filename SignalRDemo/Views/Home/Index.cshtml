@@ -1,0 +1,20 @@
+﻿
+
+<div class="row">
+    <div class="col-md-10">
+        <input type="text" id="text" class="form-control" />
+    </div>
+    <div class="col-md-2">
+        <button id="send" class="btn btn-primary btn-block">Send Message</button>
+    </div>
+</div>
+
+<ul id="messages"></ul>
+
+
+@section scripts
+{
+    <script src="/Scripts/jquery.signalR-2.2.2.min.js"></script>
+    <script src="/signalr/hubs"></script>
+    <script src="/Scripts/index.js"></script>
+}
